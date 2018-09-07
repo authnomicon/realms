@@ -1,6 +1,6 @@
 exports = module.exports = function() {
   var uri = require('url')
-    , FileResolver = require('../../../lib/realms/resolvers/file');
+    , FileResolver = require('../../lib/fileresolver');
   
   
   return {
